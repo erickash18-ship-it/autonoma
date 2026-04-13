@@ -1,0 +1,14 @@
+node_modules/
+dist/
+store/
+workspace/
+*.log
+*.pid
+
+# Secrets - NEVER commit
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+credentials.json
